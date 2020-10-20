@@ -13,6 +13,21 @@
 		18A31A1C253D75CE001ED43A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A1A253D75CE001ED43A /* Main.storyboard */; };
 		18A31A1E253D75F4001ED43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A1D253D75F4001ED43A /* Assets.xcassets */; };
 		18A31A21253D75F4001ED43A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A1F253D75F4001ED43A /* LaunchScreen.storyboard */; };
+		18A31A2A253D810D001ED43A /* сценарий.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A29253D810D001ED43A /* сценарий.txt */; };
+		18A31A33253D8A26001ED43A /* icons8-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A32253D8A25001ED43A /* icons8-wrench.png */; };
+		18A31A36253D8A85001ED43A /* icons8-collage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A35253D8A85001ED43A /* icons8-collage.png */; };
+		18A31A39253D8C09001ED43A /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A38253D8C09001ED43A /* ProjectCell.swift */; };
+		18A31A3C253D8C2B001ED43A /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A3B253D8C2B001ED43A /* TemplateCell.swift */; };
+		18A31A3F253D8C52001ED43A /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A3E253D8C52001ED43A /* StatusCell.swift */; };
+		18A31A42253DBE90001ED43A /* icons8-add_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A41253DBE90001ED43A /* icons8-add_text.png */; };
+		18A31A45253DBEDB001ED43A /* icons8-movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A44253DBEDB001ED43A /* icons8-movie.png */; };
+		18A31A48253DBF1D001ED43A /* icons8-music.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A47253DBF1D001ED43A /* icons8-music.png */; };
+		18A31A4B253DBF75001ED43A /* icons8-visual_effects.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A31A4A253DBF75001ED43A /* icons8-visual_effects.png */; };
+		18A31A4E253DF3C8001ED43A /* TemplateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A4D253DF3C8001ED43A /* TemplateController.swift */; };
+		18A31A53253E14F8001ED43A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A50253E14F8001ED43A /* PhotoCell.swift */; };
+		18A31A54253E14F8001ED43A /* AlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A51253E14F8001ED43A /* AlbumListController.swift */; };
+		18A31A55253E14F8001ED43A /* PhotoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A52253E14F8001ED43A /* PhotoListController.swift */; };
+		18A31A59253E27E2001ED43A /* AnimateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A58253E27E2001ED43A /* AnimateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		18A31A1D253D75F4001ED43A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A31A20253D75F4001ED43A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A31A22253D75F4001ED43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A31A29253D810D001ED43A /* сценарий.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "сценарий.txt"; sourceTree = "<group>"; };
+		18A31A32253D8A25001ED43A /* icons8-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-wrench.png"; sourceTree = "<group>"; };
+		18A31A35253D8A85001ED43A /* icons8-collage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-collage.png"; sourceTree = "<group>"; };
+		18A31A38253D8C09001ED43A /* ProjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		18A31A3B253D8C2B001ED43A /* TemplateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
+		18A31A3E253D8C52001ED43A /* StatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
+		18A31A41253DBE90001ED43A /* icons8-add_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-add_text.png"; sourceTree = "<group>"; };
+		18A31A44253DBEDB001ED43A /* icons8-movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-movie.png"; sourceTree = "<group>"; };
+		18A31A47253DBF1D001ED43A /* icons8-music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-music.png"; sourceTree = "<group>"; };
+		18A31A4A253DBF75001ED43A /* icons8-visual_effects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-visual_effects.png"; sourceTree = "<group>"; };
+		18A31A4D253DF3C8001ED43A /* TemplateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateController.swift; sourceTree = "<group>"; };
+		18A31A50253E14F8001ED43A /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		18A31A51253E14F8001ED43A /* AlbumListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListController.swift; sourceTree = "<group>"; };
+		18A31A52253E14F8001ED43A /* PhotoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListController.swift; sourceTree = "<group>"; };
+		18A31A58253E27E2001ED43A /* AnimateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +72,13 @@
 			children = (
 				18A31A13253D75CE001ED43A /* tiTemplate */,
 				18A31A12253D75CE001ED43A /* Products */,
+				18A31A29253D810D001ED43A /* сценарий.txt */,
+				18A31A32253D8A25001ED43A /* icons8-wrench.png */,
+				18A31A35253D8A85001ED43A /* icons8-collage.png */,
+				18A31A41253DBE90001ED43A /* icons8-add_text.png */,
+				18A31A44253DBEDB001ED43A /* icons8-movie.png */,
+				18A31A47253DBF1D001ED43A /* icons8-music.png */,
+				18A31A4A253DBF75001ED43A /* icons8-visual_effects.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +96,14 @@
 				18A31A14253D75CE001ED43A /* AppDelegate.swift */,
 				18A31A16253D75CE001ED43A /* SceneDelegate.swift */,
 				18A31A18253D75CE001ED43A /* ViewController.swift */,
+				18A31A4D253DF3C8001ED43A /* TemplateController.swift */,
+				18A31A58253E27E2001ED43A /* AnimateController.swift */,
+				18A31A52253E14F8001ED43A /* PhotoListController.swift */,
+				18A31A51253E14F8001ED43A /* AlbumListController.swift */,
+				18A31A38253D8C09001ED43A /* ProjectCell.swift */,
+				18A31A3B253D8C2B001ED43A /* TemplateCell.swift */,
+				18A31A3E253D8C52001ED43A /* StatusCell.swift */,
+				18A31A50253E14F8001ED43A /* PhotoCell.swift */,
 				18A31A1A253D75CE001ED43A /* Main.storyboard */,
 				18A31A1D253D75F4001ED43A /* Assets.xcassets */,
 				18A31A1F253D75F4001ED43A /* LaunchScreen.storyboard */,
@@ -125,8 +170,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A31A21253D75F4001ED43A /* LaunchScreen.storyboard in Resources */,
+				18A31A36253D8A85001ED43A /* icons8-collage.png in Resources */,
 				18A31A1E253D75F4001ED43A /* Assets.xcassets in Resources */,
+				18A31A48253DBF1D001ED43A /* icons8-music.png in Resources */,
+				18A31A2A253D810D001ED43A /* сценарий.txt in Resources */,
+				18A31A45253DBEDB001ED43A /* icons8-movie.png in Resources */,
+				18A31A42253DBE90001ED43A /* icons8-add_text.png in Resources */,
 				18A31A1C253D75CE001ED43A /* Main.storyboard in Resources */,
+				18A31A4B253DBF75001ED43A /* icons8-visual_effects.png in Resources */,
+				18A31A33253D8A26001ED43A /* icons8-wrench.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +191,15 @@
 			files = (
 				18A31A19253D75CE001ED43A /* ViewController.swift in Sources */,
 				18A31A15253D75CE001ED43A /* AppDelegate.swift in Sources */,
+				18A31A59253E27E2001ED43A /* AnimateController.swift in Sources */,
+				18A31A3C253D8C2B001ED43A /* TemplateCell.swift in Sources */,
+				18A31A4E253DF3C8001ED43A /* TemplateController.swift in Sources */,
+				18A31A53253E14F8001ED43A /* PhotoCell.swift in Sources */,
+				18A31A54253E14F8001ED43A /* AlbumListController.swift in Sources */,
 				18A31A17253D75CE001ED43A /* SceneDelegate.swift in Sources */,
+				18A31A39253D8C09001ED43A /* ProjectCell.swift in Sources */,
+				18A31A55253E14F8001ED43A /* PhotoListController.swift in Sources */,
+				18A31A3F253D8C52001ED43A /* StatusCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45CD6N6NQ7;
 				INFOPLIST_FILE = tiTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45CD6N6NQ7;
 				INFOPLIST_FILE = tiTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
