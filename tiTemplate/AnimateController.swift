@@ -85,13 +85,31 @@ class AnimateController: UIViewController {
         let layer = self.layerList.last!
         
         //let height = self.view.bounds.height
+        //"0;0.0;0.0;0.0;0.0;0.0;0.0"
+        let animeStrArr = ["0;0.0;0.0;0.0;0.0;0.0;0.0", // поставили
+                           "0;0.0;0.0;0.0;0.0;0.0;1.0", // показываем 1 сек
+                           "0;0.0;0.0;w;0.0;1.0;0.0",   // убираем вправо за пределы экрана
+                           "0;w;0.0;w;0.0;1.0;1.0",   // показываем 1 сек ( не виден )
+                           "0;w;0.0;w / 2;0.0;2.0;0.5",   // двигаем на середину
+                           "0;w / 2;0.0;w / 2;0.0;2.5;0.5",   // показываем 0,5 сек
+                           "0;w / 2;0.0;w - w / 10.0;0.0;3.0;0.5",   // двигаем вправо до 1/10 экрана
+                           "0;w - w / 10.0;0.0;w - w / 10.0;0.0;3.5;0.5",   // показываем 0,5 сек
+                           "0;w - w / 10.0;0.0;0.0;0.0;4.0;1.0",   // двигаем влево до начала экрана
+                          ]
         
         var animations = [CABasicAnimation]()
+        
+        for animeStr in animeStrArr {
+            let animation = animationFromStrng(string: animeStr)
+            animations.append(animation)
+        }
+        /*
         // стоим запрос1 нет анимации время 0,4
         //запрос0 позиция(x: view.width, y: 0) - нет анимации не виден
         let positionAnimationFaza0 = CABasicAnimation(keyPath: "position")   // поставили
         positionAnimationFaza0.fromValue = CGPoint.zero
         positionAnimationFaza0.toValue = CGPoint.zero
+        positionAnimationFaza0.beginTime = 0.0
         positionAnimationFaza0.duration = 0.0
         animations.append(positionAnimationFaza0)
         // 0.0
@@ -186,7 +204,7 @@ class AnimateController: UIViewController {
 //        positionAnimationFaza5.duration = 1.0
 //        animations.append(positionAnimationFaza5)
 
-        
+        */
         let animationGroup = CAAnimationGroup()
         animationGroup.duration = 5.0
         animationGroup.animations = animations
@@ -198,6 +216,33 @@ class AnimateController: UIViewController {
 
     }
 
+    func animationFromStrng(string: String) -> CABasicAnimation {
+        var animation = CABasicAnimation()
+        // тип анимации;начальная позиция;конечная позиция;время анимации; стар анимации
+        // w - ширина вьюхи; h - высота вьюхи
+        let widthStr = String(format: "%.0f", self.view.bounds.width)
+        let heightStr = String(format: "%.0f", self.view.bounds.height)
+
+        var context = string.replacingOccurrences(of: "w", with: widthStr)
+        context = context.replacingOccurrences(of: "h", with: heightStr)
+        let valueList = context.components(separatedBy: ";")
+        print(valueList)
+
+        // тип анимации пока только 0 - позиция
+        animation = CABasicAnimation(keyPath: "position")
+        // from
+        let fromX = NSExpression(format: valueList[1]).expressionValue(with: nil, context: nil) as! CGFloat
+        let fromY = NSExpression(format: valueList[2]).expressionValue(with: nil, context: nil) as! CGFloat
+        let toX = NSExpression(format: valueList[3]).expressionValue(with: nil, context: nil) as! CGFloat
+        let toY = NSExpression(format: valueList[4]).expressionValue(with: nil, context: nil) as! CGFloat
+
+        animation.fromValue = CGPoint(x: fromX, y: fromY)
+        animation.toValue = CGPoint(x: toX, y: toY)
+        animation.beginTime = Double(valueList[5])!
+        animation.duration = Double(valueList[6])!
+
+        return animation
+    }
     
     func animMove(layer: CALayer) {
         
