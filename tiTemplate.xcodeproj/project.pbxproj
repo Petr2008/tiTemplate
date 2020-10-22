@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188082CF25409819000769C7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188082CE25409819000769C7 /* Extension.swift */; };
+		188082D82540C5B1000769C7 /* bensound-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 188082D72540C5B1000769C7 /* bensound-summer.mp3 */; };
 		18A31A15253D75CE001ED43A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A14253D75CE001ED43A /* AppDelegate.swift */; };
 		18A31A17253D75CE001ED43A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A16253D75CE001ED43A /* SceneDelegate.swift */; };
 		18A31A19253D75CE001ED43A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A31A18253D75CE001ED43A /* ViewController.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188082CE25409819000769C7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		188082D72540C5B1000769C7 /* bensound-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-summer.mp3"; sourceTree = "<group>"; };
 		18A31A11253D75CE001ED43A /* tiTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A31A14253D75CE001ED43A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A31A16253D75CE001ED43A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 				18A31A13253D75CE001ED43A /* tiTemplate */,
 				18A31A12253D75CE001ED43A /* Products */,
 				18A31A29253D810D001ED43A /* сценарий.txt */,
+				188082D72540C5B1000769C7 /* bensound-summer.mp3 */,
 				18A31A32253D8A25001ED43A /* icons8-wrench.png */,
 				18A31A35253D8A85001ED43A /* icons8-collage.png */,
 				18A31A41253DBE90001ED43A /* icons8-add_text.png */,
@@ -104,6 +109,7 @@
 				18A31A3B253D8C2B001ED43A /* TemplateCell.swift */,
 				18A31A3E253D8C52001ED43A /* StatusCell.swift */,
 				18A31A50253E14F8001ED43A /* PhotoCell.swift */,
+				188082CE25409819000769C7 /* Extension.swift */,
 				18A31A1A253D75CE001ED43A /* Main.storyboard */,
 				18A31A1D253D75F4001ED43A /* Assets.xcassets */,
 				18A31A1F253D75F4001ED43A /* LaunchScreen.storyboard */,
@@ -169,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188082D82540C5B1000769C7 /* bensound-summer.mp3 in Resources */,
 				18A31A21253D75F4001ED43A /* LaunchScreen.storyboard in Resources */,
 				18A31A36253D8A85001ED43A /* icons8-collage.png in Resources */,
 				18A31A1E253D75F4001ED43A /* Assets.xcassets in Resources */,
@@ -192,6 +199,7 @@
 				18A31A19253D75CE001ED43A /* ViewController.swift in Sources */,
 				18A31A15253D75CE001ED43A /* AppDelegate.swift in Sources */,
 				18A31A59253E27E2001ED43A /* AnimateController.swift in Sources */,
+				188082CF25409819000769C7 /* Extension.swift in Sources */,
 				18A31A3C253D8C2B001ED43A /* TemplateCell.swift in Sources */,
 				18A31A4E253DF3C8001ED43A /* TemplateController.swift in Sources */,
 				18A31A53253E14F8001ED43A /* PhotoCell.swift in Sources */,

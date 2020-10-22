@@ -325,11 +325,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2iv-F4-lvT">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="icons8-visual_effects.png" id="Tvw-t0-ZWo">
-                            <connections>
-                                <action selector="animationAction:" destination="95q-S3-4oh" id="Ma3-QN-c1x"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="icons8-visual_effects.png" id="Tvw-t0-ZWo">
+                                <connections>
+                                    <action selector="animationAction:" destination="95q-S3-4oh" id="Ma3-QN-c1x"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Movie" id="Wxj-9N-2VF">
+                                <connections>
+                                    <action selector="makeMovienAction:" destination="95q-S3-4oh" id="QMj-tP-jkf"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="animateView" destination="33b-z1-rAa" id="Hi4-UX-317"/>

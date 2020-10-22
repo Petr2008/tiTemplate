@@ -95,7 +95,7 @@ class TemplateController: UIViewController, PhotoListDelegate {
         }
         if segue.identifier == "animation" {
             let animateController = segue.destination as! AnimateController
-            animateController.imageList = [self.leftImage!, self.rightImage!]
+            animateController.inputMObjectList = [self.leftImage!, self.rightImage!]
             animateController.widthScreen = self.view.bounds.width
         }
     }
